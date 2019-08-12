@@ -1,0 +1,50 @@
+div.blogpost-cover {
+  /* background-color: #ff5c5c; */
+  height: 300px;
+  position: relative;
+  margin-bottom: 2rem;
+  outline-style: solid;
+  outline-color: #ff5c5c;
+  outline-offset: -10px;
+  outline-width: 5px;
+}
+
+article.post {
+  padding: 2rem;
+  background-color: #f4f4f8;
+}
+
+article.post p {
+  max-width: 50rem;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  margin: 1rem auto;
+}
+
+article.post h2 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+h1.section-title {
+  position: absolute;
+  bottom: 0;
+  left: 1rem;
+  color: #ff5c5c;
+}
+
+@media screen and (max-width: 768px) {
+  article.post {
+    padding: 2rem;
+    background-color: rgb(238, 238, 238);
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  main {
+    margin-right: 7rem;
+  }
+}

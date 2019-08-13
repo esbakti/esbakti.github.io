@@ -37,6 +37,12 @@ nav {
   margin-top: 2rem;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+}
+
 ul {
   list-style: none;
   display: flex;
@@ -128,6 +134,15 @@ main.maingrid {
 main.maingrid div {
   height: 50px;
   width: 50px;
+}
+
+.post-kata {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: flex-start;
+  grid-gap: 2rem;
+  border-top: 3px solid #ff5c5cb6;
+  padding: 2rem 0;
 }
 
 .central-img {
